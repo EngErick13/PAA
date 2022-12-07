@@ -1,0 +1,46 @@
+system-view
+Enter system view, return user view with Ctrl+Z.
+[BUBO-01]undo ip ip-prefix CT-ALANN_EUDES
+[BUBO-01]ip ip-prefix CT-ALANN_EUDES permit 143.208.28.0 22 less-equal 24
+[BUBO-01]undo ip ip-prefix CT-ALMEIRIM-TELECOM
+[BUBO-01]ip ip-prefix CT-ALMEIRIM-TELECOM permit 170.78.92.0 22 less-equal 24
+[BUBO-01]undo ip ip-prefix CT-AMAZONNET
+[BUBO-01]ip ip-prefix CT-AMAZONNET permit 45.168.124.0 22 less-equal 24
+[BUBO-01]undo ip ip-prefix CT-PROVENET
+[BUBO-01]ip ip-prefix CT-PROVENET permit 138.185.172.0 22 less-equal 24
+[BUBO-01]ip ip-prefix CT-PROVENET permit 201.150.120.0 22 less-equal 24
+[BUBO-01]undo ip ip-prefix CT-TOPNET
+[BUBO-01]ip ip-prefix CT-TOPNET permit 38.50.56.0 22 less-equal 24
+[BUBO-01]ip ip-prefix CT-TOPNET permit 200.6.136.0 21 less-equal 24
+[BUBO-01]undo ip ip-prefix CT-WIFI_TELECOM
+[BUBO-01]ip ip-prefix CT-WIFI_TELECOM permit 131.161.204.0 22 less-equal 24
+[BUBO-01]ip ip-prefix CT-WIFI_TELECOM permit 200.1.216.0 21 less-equal 24
+[BUBO-01]undo ip ip-prefix CT-WSP_PROGRESSO-ICV
+[BUBO-01]ip ip-prefix CT-WSP_PROGRESSO-ICV permit 38.41.184.0 22 less-equal 24
+[BUBO-01]ip ip-prefix CT-WSP_PROGRESSO-ICV permit 138.94.200.0 22 less-equal 24
+[BUBO-01]ip ip-prefix CT-WSP_PROGRESSO-ICV permit 179.124.16.0 20 less-equal 24
+[BUBO-01]undo ip ip-prefix CT-WSP_SERVICOS
+[BUBO-01]ip ip-prefix CT-WSP_SERVICOS permit 138.99.108.0 22 less-equal 24
+[BUBO-01]ip ip-prefix CT-WSP_SERVICOS permit 177.130.48.0 20 less-equal 24
+[BUBO-01]return
+system-view
+Enter system view, return user view with Ctrl+Z.
+[BUBO-01]undo ip ipv6-prefix CT-ALANN_EUDES-v6
+[BUBO-01]ip ipv6-prefix CT-ALANN_EUDES-v6 permit 2804:2a90:: 32 less-equal 48
+[BUBO-01]undo ip ipv6-prefix CT-ALMEIRIM-TELECOM-v6
+[BUBO-01]ip ipv6-prefix CT-ALMEIRIM-TELECOM-v6 permit 2804:3518:: 32 less-equal 48
+[BUBO-01]undo ip ipv6-prefix CT-AMAZONNET-v6
+[BUBO-01]ip ipv6-prefix CT-AMAZONNET-v6 permit 2804:5768:: 32 less-equal 48
+[BUBO-01]undo ip ipv6-prefix CT-PROVENET-v6
+[BUBO-01]ip ipv6-prefix CT-PROVENET-v6 permit 2804:1a7c:: 32 less-equal 48
+[BUBO-01]undo ip ipv6-prefix CT-TOPNET-v6
+[BUBO-01]ip ipv6-prefix CT-TOPNET-v6 permit 2804:1810:: 32 less-equal 48
+[BUBO-01]ip ipv6-prefix CT-TOPNET-v6 permit 2804:44f8:: 32 less-equal 48
+[BUBO-01]undo ip ipv6-prefix CT-WIFI_TELECOM-v6
+[BUBO-01]ip ipv6-prefix CT-WIFI_TELECOM-v6 permit 2804:1ddc:: 32 less-equal 48
+[BUBO-01]undo ip ipv6-prefix CT-WSP_PROGRESSO-ICV-v6
+[BUBO-01]ip ipv6-prefix CT-WSP_PROGRESSO-ICV-v6 permit 2804:ff8:: 32 less-equal 48
+[BUBO-01]ip ipv6-prefix CT-WSP_PROGRESSO-ICV-v6 permit 2804:238c:: 32 less-equal 48
+[BUBO-01]undo ip ipv6-prefix CT-WSP_SERVICOS-v6
+[BUBO-01]ip ipv6-prefix CT-WSP_SERVICOS-v6 permit 2804:235c:: 32 less-equal 48
+[BUBO-01]return

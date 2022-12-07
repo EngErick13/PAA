@@ -1,0 +1,4 @@
+undo ip ip-prefix CT-VIRTUAL
+ip ip-prefix CT-VIRTUAL permit 143.137.152.0 22 less-equal 24
+undo ip ip-prefix CT-RED-SHOPPING
+ip ip-prefix CT-RED-SHOPPING permit 45.234.16.0 22 less-equal 24

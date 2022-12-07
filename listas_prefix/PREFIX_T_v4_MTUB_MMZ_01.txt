@@ -1,0 +1,5 @@
+undo ip ip-prefix CT-ASSISTEMAS
+ip ip-prefix CT-ASSISTEMAS permit 167.249.208.0 22 less-equal 24
+ip ip-prefix CT-ASSISTEMAS permit 206.84.32.0 19 less-equal 24
+undo ip ip-prefix CT-NETPARA
+ip ip-prefix CT-NETPARA permit 45.235.220.0 22 less-equal 24

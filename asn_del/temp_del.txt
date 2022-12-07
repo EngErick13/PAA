@@ -1,0 +1,11 @@
+undo ip ipv6-prefix CT-CLOUDFLARE-v6
+ip ipv6-prefix CT-CLOUDFLARE-v6 permit 2400:cb00:: 32 less-equal 48
+ip ipv6-prefix CT-CLOUDFLARE-v6 permit 2405:8100:: 32 less-equal 48
+ip ipv6-prefix CT-CLOUDFLARE-v6 permit 2405:b500:: 32 less-equal 48
+ip ipv6-prefix CT-CLOUDFLARE-v6 permit 2606:4700:: 32 less-equal 48
+ip ipv6-prefix CT-CLOUDFLARE-v6 permit 2606:54c0:: 32 less-equal 48
+ip ipv6-prefix CT-CLOUDFLARE-v6 permit 2620:127:f00e:: 48
+ip ipv6-prefix CT-CLOUDFLARE-v6 permit 2803:f800:: 32 less-equal 48
+ip ipv6-prefix CT-CLOUDFLARE-v6 permit 2a06:98c0:: 29 less-equal 48
+ip ipv6-prefix CT-CLOUDFLARE-v6 permit 2a09:bac0:: 29 less-equal 48
+ip ipv6-prefix CT-CLOUDFLARE-v6 permit 2c0f:f248:: 32 less-equal 48

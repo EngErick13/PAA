@@ -1,0 +1,4 @@
+undo ip ipv6-prefix CT-VIRTUAL-v6
+ip ipv6-prefix CT-VIRTUAL-v6 permit 2804:29e4:: 32 less-equal 48
+undo ip ipv6-prefix CT-RED-SHOPPING-v6
+ip ipv6-prefix CT-RED-SHOPPING-v6 permit 2804:4be8:: 32 less-equal 48

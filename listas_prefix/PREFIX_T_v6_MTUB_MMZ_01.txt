@@ -1,0 +1,4 @@
+undo ip ipv6-prefix CT-ASSISTEMAS-v6
+ip ipv6-prefix CT-ASSISTEMAS-v6 permit 2804:2bc8:: 32 less-equal 48
+undo ip ipv6-prefix CT-NETPARA-v6
+ip ipv6-prefix CT-NETPARA-v6 permit 2804:4df4:: 32 less-equal 48

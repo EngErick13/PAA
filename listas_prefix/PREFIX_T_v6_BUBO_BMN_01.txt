@@ -1,0 +1,18 @@
+undo ip ipv6-prefix CT-ALANN_EUDES-v6
+ip ipv6-prefix CT-ALANN_EUDES-v6 permit 2804:2a90:: 32 less-equal 48
+undo ip ipv6-prefix CT-ALMEIRIM-TELECOM-v6
+ip ipv6-prefix CT-ALMEIRIM-TELECOM-v6 permit 2804:3518:: 32 less-equal 48
+undo ip ipv6-prefix CT-AMAZONNET-v6
+ip ipv6-prefix CT-AMAZONNET-v6 permit 2804:5768:: 32 less-equal 48
+undo ip ipv6-prefix CT-PROVENET-v6
+ip ipv6-prefix CT-PROVENET-v6 permit 2804:1a7c:: 32 less-equal 48
+undo ip ipv6-prefix CT-TOPNET-v6
+ip ipv6-prefix CT-TOPNET-v6 permit 2804:1810:: 32 less-equal 48
+ip ipv6-prefix CT-TOPNET-v6 permit 2804:44f8:: 32 less-equal 48
+undo ip ipv6-prefix CT-WIFI_TELECOM-v6
+ip ipv6-prefix CT-WIFI_TELECOM-v6 permit 2804:1ddc:: 32 less-equal 48
+undo ip ipv6-prefix CT-WSP_PROGRESSO-ICV-v6
+ip ipv6-prefix CT-WSP_PROGRESSO-ICV-v6 permit 2804:ff8:: 32 less-equal 48
+ip ipv6-prefix CT-WSP_PROGRESSO-ICV-v6 permit 2804:238c:: 32 less-equal 48
+undo ip ipv6-prefix CT-WSP_SERVICOS-v6
+ip ipv6-prefix CT-WSP_SERVICOS-v6 permit 2804:235c:: 32 less-equal 48

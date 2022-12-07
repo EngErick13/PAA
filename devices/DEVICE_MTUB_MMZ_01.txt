@@ -1,0 +1,8 @@
+device_type
+huawei
+host
+192.168.129.4
+username
+netmiko
+password
+1234@Bcd
