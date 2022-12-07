@@ -1,0 +1,1 @@
+Após a execução do código, os comandos utilizados nos equipamentos seram importados aqui no formato .txt
